@@ -1,0 +1,33 @@
+/* On utilise le selecteur universel * pour réinitialiser le navigateur*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*Par défaut la valeur est de 100%(1rem = 16px) mais pour simplifier la conversion en 
+modifiant la valeur de référence pour qu'elle conrresponde à 10px.
+Comment? --> en faisant un produit en croix --> (100% * 10px) / 16px */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.4rem; /* Soit 14px */
+    font-family: 'Quicksand sans-serif';
+    color: white;
+    height: 100vh;
+    width: 100vh;
+}
+#invader{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    width: 16rem;
+}
+.cell{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(213, 218, 218);
+    border: 1px solid black;
+}
