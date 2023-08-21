@@ -18,16 +18,49 @@ body{
     color: white;
     height: 100vh;
     width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgb(197, 88, 88), pink, rgb(241, 225, 225));
+
+}
+.configuration{
+    background-color: aqua;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.1rem;
+}
+.canvasSizeS{
+    padding: 1em;
+    border:0;
+    font-size: 1.2em;
+    width: 10em;
+    margin-right: 2px;
+}
+
+.btnStyle{
+    padding: 1em;
+    border:0;
+    font-size: 1.2em;
+    color: #fff;
+    background: rgb(126, 73, 73);
+    border-radius:0 .5em .5em 0;
 }
 #invader{
-    background-color: pink;
     display: flex;
     flex-wrap: wrap;
-    width: 16rem;
+    width: 40rem;
 }
 .cell{
-    height: 2rem;
-    width: 2rem;
+    height: 5rem;
+    width: 5rem;
     background-color: rgb(213, 218, 218);
     border: 1px solid black;
+}
+.black-color{
+    background-color: black;
 }
